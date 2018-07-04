@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Day 5 - HTML Images and Tables</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <style>
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+        td, th {
+            border: 1px solid #dddddd;
+            text-align: center;
+            padding: 8px;
+        }
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+
+    </style>
+</head>
+<body style="background-color: bisque;">
+    <h2 style="color:blue;">This section is to cover HTML image element - 'maps'</p>
+    <img src="workplace.jpg" alt='workplace' usemap="#workplace">
+    <map name="workplace">
+        <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+        <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+        <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm">
+    </map>
+    <hr>
+    <h2 style="color:blue;">This section is to cover HTML table</h2>
+    <table style="width: 100%">
+        <tr>
+            <th>S. No.</th>
+            <th>Company</th>
+            <th>Shares</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>RIL</td>
+            <td>5</td>
+            <td>900.15</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>IOCL</td>
+            <td>60</td>
+            <td>167.4</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>HPCL</td>
+            <td>10</td>
+            <td>400.15</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>SBI</td>
+            <td>15</td>
+            <td>299.15</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
