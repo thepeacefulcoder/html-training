@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Day 6 - HTML lists</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <style>
+        #u01 {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333333;
+        }
+        #l01 {
+            float: left;
+        }
+
+        #l01 a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 16px;
+            text-decoration: none;
+        }
+
+        #l01 a:hover {
+            background-color: #111111;
+        }
+    </style>
+</head>
+<body>
+    <h2 style="background-color: hotpink;">This session is for HTML lists</h2>
+    <p style="color: dodgerblue;">There are two types of lists</p>
+    <ul>
+        <li>Ordered lists</li>
+        <li>Un-ordered lists</li>
+    </ul>
+    <hr>
+    <h3>Un-ordered lists</h3>
+    <p style="color: darkviolet;">Un-ordered lists can use markers such as square, circle and discs</p>
+    <p style="color: darkviolet;">Below are examples</p>
+    <ul style="list-style-type: disc;">
+        <li>Brazil</li>
+        <li>Italy</li>
+        <li>Germany</li>
+        <li>Argentia</li>
+    </ul>
+    <ul style="list-style-type: circle;">
+        <li>Brazil</li>
+        <li>Italy</li>
+        <li>Germany</li>
+        <li>Argentia</li>
+    </ul>
+    <ul style="list-style-type: square;">
+        <li>Brazil</li>
+        <li>Italy</li>
+        <li>Argentia</li>
+    </ul>
+
+    <ul id="u01">
+        <li id="l01"><a href="#home">Home</a></li>
+        <li id="l01"><a href="#news">News</a></li>
+        <li id="l01"><a href="#contact">Contact</a></li>
+        <li id="l01"><a href="#about">About</a></li>
+    </ul>
+    <hr>
+    <h3>Ordered lists</h3>
+    <p style="color:darkslateblue;">Ordered lists can use type such as 1, A, a, I, i</p>
+    <p style="color: darkslateblue;">Below are the examples</p>
+    <ol type="1">
+        <li>Brazil</li>
+        <li>Italy</li>
+        <li>Argentia</li>    
+    </ol>
+    <ol type="A">
+        <li>Brazil</li>
+        <li>Italy</li>
+        <li>Argentia</li>    
+    </ol>
+    <ol type="a">
+        <li>Brazil</li>
+        <li>Italy</li>
+        <li>Argentia</li>    
+    </ol>
+    <ol type="I">
+        <li>Brazil</li>
+        <li>Italy</li>
+        <li>Argentia</li>    
+    </ol>
+    <ol type="i">
+        <li>Brazil</li>
+        <li>Italy</li>
+        <li>Argentia</li>    
+    </ol>
+    <p style="color: darkslateblue;">Ordered list can start with a pre specified number as well. These are called contol lists</p>
+    <ol start="10">
+        <li>Brazil</li>
+        <li>Italy</li>
+        <li>Argentia</li>    
+    </ol>
+</body>
+</html>
